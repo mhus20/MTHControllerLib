@@ -5,19 +5,22 @@ import PackageDescription
 
 let package = Package(
     name: "MTHControllerLib",
+    platforms: [
+        .iOS(.v15)
+    ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
+        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "MTHControllerLib",
-            targets: ["MTHControllerLib"]),
+            name: "MTHWController",
+            targets: ["MTHWController"]),
+    ],
+    dependencies: [
+        // Dependencies declare other packages that this package depends on.
+        // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "MTHControllerLib"),
-        .testTarget(
-            name: "MTHControllerLibTests",
-            dependencies: ["MTHControllerLib"]),
+        .binaryTarget(
+            name: "MTHWController",
+            path: "./Sources/MTHControllerLib/MTHWController.xcframework")
     ]
 )

@@ -1,0 +1,6 @@
+framework module MTHWController {
+  umbrella header "MTHWController.h"
+  export *
+
+  module * { export * }
+}
