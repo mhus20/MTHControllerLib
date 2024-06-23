@@ -20,3 +20,6 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor(unsafe) public static func dismiss()
   @objc deinit
 }
+public struct Config {
+  public static func config()
+}
