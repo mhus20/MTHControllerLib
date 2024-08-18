@@ -21,7 +21,8 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor(unsafe) public static func dismiss()
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class Config {
+public class Config {
+  public init()
   public func config()
   @objc deinit
 }

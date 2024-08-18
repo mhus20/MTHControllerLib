@@ -476,6 +476,27 @@
         "printedName": "Config",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Config",
+                "printedName": "MTHWController.Config",
+                "usr": "s:14MTHWController6ConfigC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MTHWController6ConfigCACycfc",
+            "mangledName": "$s14MTHWController6ConfigCACycfc",
+            "moduleName": "MTHWController",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "config",
             "printedName": "config()",
@@ -502,8 +523,7 @@
         "moduleName": "MTHWController",
         "declAttributes": [
           "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
       },
       {
         "kind": "Import",
