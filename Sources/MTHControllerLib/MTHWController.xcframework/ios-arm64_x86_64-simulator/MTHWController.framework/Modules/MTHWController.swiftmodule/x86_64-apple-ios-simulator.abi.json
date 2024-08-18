@@ -438,6 +438,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MTHWController"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -451,7 +458,10 @@
         "name": "NDPanelClient",
         "printedName": "NDPanelClient",
         "declKind": "Import",
-        "moduleName": "MTHWController"
+        "moduleName": "MTHWController",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",

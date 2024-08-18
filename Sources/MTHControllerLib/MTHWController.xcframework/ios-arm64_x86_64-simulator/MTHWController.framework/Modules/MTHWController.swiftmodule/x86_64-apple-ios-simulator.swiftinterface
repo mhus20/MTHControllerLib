@@ -9,7 +9,6 @@ import CoreImage
 import CoreLocation
 import Foundation
 @_exported import MTHWController
-import NDPanelClient
 import Photos
 import Swift
 import UIKit
