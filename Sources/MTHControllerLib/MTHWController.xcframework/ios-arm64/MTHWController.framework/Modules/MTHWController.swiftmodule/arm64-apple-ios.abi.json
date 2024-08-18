@@ -250,6 +250,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MTHWController"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -440,6 +447,20 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "NDPanelClient",
+        "printedName": "NDPanelClient",
+        "declKind": "Import",
+        "moduleName": "MTHWController"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MTHWController"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Config",
         "printedName": "Config",
@@ -456,23 +477,23 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14MTHWController6ConfigV6configyyFZ",
-            "mangledName": "$s14MTHWController6ConfigV6configyyFZ",
+            "usr": "s:14MTHWController6ConfigC6configyyF",
+            "mangledName": "$s14MTHWController6ConfigC6configyyF",
             "moduleName": "MTHWController",
-            "static": true,
             "declAttributes": [
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:14MTHWController6ConfigV",
-        "mangledName": "$s14MTHWController6ConfigV",
+        "declKind": "Class",
+        "usr": "s:14MTHWController6ConfigC",
+        "mangledName": "$s14MTHWController6ConfigC",
         "moduleName": "MTHWController",
         "declAttributes": [
           "AccessControl"
-        ]
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",

@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MTHWController
+// swift-module-flags: -target arm64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MTHWController
 import AVFAudio
 import AVFoundation
 import Combine
@@ -9,6 +9,7 @@ import CoreImage
 import CoreLocation
 import Foundation
 @_exported import MTHWController
+import NDPanelClient
 import Photos
 import Swift
 import UIKit
@@ -21,6 +22,7 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor(unsafe) public static func dismiss()
   @objc deinit
 }
-public struct Config {
-  public static func config()
+@_hasMissingDesignatedInitializers public class Config {
+  public func config()
+  @objc deinit
 }
